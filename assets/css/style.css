@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: relative;
+    top: 50px;
+    width: 20%;
+    height: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: tomato;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+#result {
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+ul {
+    margin: 2%;
+    padding: 5px 1px;
+}
+
+ul li {
+    display: inline;
+    padding: 0px 5px;
+}
+
+ul li button {
+    width: 43%;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+ul li button:hover {
+    box-shadow: 0px 0px 10px white;
+    background-color: white;
+}
